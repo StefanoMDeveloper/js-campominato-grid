@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.bordo{
+    border: 3px solid black;
+}
+
+.item {
+    flex: 1 0 10%;
+    border: 3px solid black;
+    height: 60px;
+    background-color: lightblue;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item2 {
+    flex: 1 0 11%;
+}
+
+.item3 {
+    flex: 1 0 13%;
+}
+
+.active{
+    border: 3px solid white;
+    color: white;
+    background-color: darkred;
+}
