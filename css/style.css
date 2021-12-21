@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +20,6 @@
     flex: 1 0 10%;
     border: 3px solid black;
     height: 60px;
-    background-color: lightblue;
     line-height: 60px;
     text-align: center;
     cursor: pointer;
@@ -35,7 +34,16 @@
 }
 
 .active{
-    border: 3px solid white;
     color: white;
+    background-color: rgb(9, 113, 148);
+}
+
+.bomb{
     background-color: darkred;
+}
+
+#punteggio{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
 }
